@@ -57,5 +57,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProtectionRemoverLib\ProtectionRemoverLib.csproj">
+      <Project>{fe68362b-7c5c-4406-a657-6ada70e168cd}</Project>
+      <Name>ProtectionRemoverLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

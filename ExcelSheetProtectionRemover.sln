@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetProtectionRemover", "ExcelSheetProtectionRemover\ExcelSheetProtectionRemover.csproj", "{4343E4FB-8ED2-4ED8-BACB-57EB8B9BAC69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetProtectionRemoverApp", "ExcelSheetProtectionRemoverApp\ExcelSheetProtectionRemoverApp.csproj", "{5EE7EF21-4867-4A7F-8923-AD9522E76816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectionRemoverLib", "ProtectionRemoverLib\ProtectionRemoverLib.csproj", "{FE68362B-7C5C-4406-A657-6ADA70E168CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4343E4FB-8ED2-4ED8-BACB-57EB8B9BAC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4343E4FB-8ED2-4ED8-BACB-57EB8B9BAC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4343E4FB-8ED2-4ED8-BACB-57EB8B9BAC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE7EF21-4867-4A7F-8923-AD9522E76816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE7EF21-4867-4A7F-8923-AD9522E76816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE7EF21-4867-4A7F-8923-AD9522E76816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE7EF21-4867-4A7F-8923-AD9522E76816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE68362B-7C5C-4406-A657-6ADA70E168CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE68362B-7C5C-4406-A657-6ADA70E168CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE68362B-7C5C-4406-A657-6ADA70E168CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE68362B-7C5C-4406-A657-6ADA70E168CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
